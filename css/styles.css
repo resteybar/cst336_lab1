@@ -1,6 +1,6 @@
 body {
     background-color:black;
-    color: gray;
+    color: white;
 }
 
 header, main, nav, footer {
@@ -11,7 +11,7 @@ nav a {
     padding: 20px;
     padding-bottom: 4px;
     font-size: 1.8em;
-    text-decoration: none;
+    text-decoration: none; /*Removes Underline*/
     color: white;
 }
 
@@ -21,6 +21,74 @@ nav a:hover {
     transition: .9s;
 }
 
+#index, #content {
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+}
+
 #me, #welcomeText {
     float: left;
+    align-content: center;
+    text-align: left;
+}
+
+figure, div {
+    padding-top: 30px;
+    font-size: 0.98em;
+}
+
+/*Puts footer below the page*/
+footer {
+    clear: left;
+    color: gray;
+}
+
+/*Shows what page you're on*/
+#home, #about, #contact {
+    border-bottom: 2px orange solid;
+}
+
+main {
+    text-align: center;
+    width: 700px;
+}
+
+/*About Page*/
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 100px;
+    font-size: 1.3em;
+}
+
+Color of Table
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 4em;
+    margin-bottom: 0px;
 }
