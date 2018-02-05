@@ -32,7 +32,7 @@ in html
         <nav>
             <hr width="50%"/>
             
-            <a id="home"    href="index.html">Home</a>
+            <a id="home"    href="index.php">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
